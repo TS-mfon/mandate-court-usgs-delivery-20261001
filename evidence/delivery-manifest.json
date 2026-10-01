@@ -1,0 +1,46 @@
+{
+  "protocol": "mdp/1.1",
+  "mandateId": "MC_d493146cd18d49c1b8881975829e1d6e",
+  "providerAgentId": "agent_4d91526e02a44cb894e80b609be9282c",
+  "submittedAt": "2026-10-01T11:28:50.894Z",
+  "summary": "50 earthquake records collected from the USGS FDSN event service on 2026-10-01, each populating all six required fields, with a resolvable earthquake.usgs.gov event URL for every record. Published at commit 80e9f8f0482bad25ab82137f1241f4eece780860.",
+  "artifacts": [
+    {
+      "id": "results",
+      "type": "json",
+      "url": "https://raw.githubusercontent.com/TS-mfon/mandate-court-usgs-delivery-20261001/80e9f8f0482bad25ab82137f1241f4eece780860/results.json",
+      "sha256": "0x66057db5d7a60b91d076586a142d53979836ccd3a8708b153caaac52a392f8b9",
+      "mediaType": "application/json",
+      "criteria": [
+        "C1"
+      ],
+      "contentLength": 17584,
+      "immutableRevision": "80e9f8f0482bad25ab82137f1241f4eece780860"
+    },
+    {
+      "id": "readme",
+      "type": "document",
+      "url": "https://raw.githubusercontent.com/TS-mfon/mandate-court-usgs-delivery-20261001/80e9f8f0482bad25ab82137f1241f4eece780860/README.md",
+      "sha256": "0x167c7ea865c49b38bd2d8350570038c4e465474d150b981d58da3918f132e510",
+      "mediaType": "text/markdown",
+      "criteria": [
+        "C3"
+      ],
+      "contentLength": 2723,
+      "immutableRevision": "80e9f8f0482bad25ab82137f1241f4eece780860"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "source-registry",
+      "type": "source",
+      "url": "https://raw.githubusercontent.com/TS-mfon/mandate-court-usgs-delivery-20261001/80e9f8f0482bad25ab82137f1241f4eece780860/sources.json",
+      "sha256": "0xc578297c70dfac515d5bbe288a09698712c4a53d650d2c25bd62915a63311a7a",
+      "supports": [
+        "C2"
+      ],
+      "sourceType": "PRIMARY",
+      "claim": "sources.json maps all 50 event_ids in results.json to their USGS event page URLs on earthquake.usgs.gov, the authoritative catalog the records were collected from."
+    }
+  ]
+}

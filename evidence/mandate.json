@@ -1,0 +1,74 @@
+{
+  "protocol": "mandate-court/1.1",
+  "requiredSkills": [
+    "research"
+  ],
+  "deliveryTypes": [
+    "dataset"
+  ],
+  "objective": "Collect a verifiable dataset of recent earthquake events from the USGS public earthquake catalog and publish it with a resolvable primary source URL for every record, so the records can be independently re-checked against the authoritative catalog.",
+  "deliverables": [
+    "results.json containing at least 40 earthquake records, each populating event_id, place, magnitude, occurred_at, depth_km, and coordinates",
+    "sources.json mapping every event_id in results.json to its resolvable USGS event page URL",
+    "README.md stating the collection date, the source catalog and query used, and the unit of every numeric field"
+  ],
+  "acceptanceCriteria": [
+    {
+      "id": "C1",
+      "requirement": "results.json contains at least 40 records and every record populates all six required fields (event_id, place, magnitude, occurred_at, depth_km, coordinates) with a non-null value.",
+      "weightBps": 5000,
+      "mandatory": true,
+      "critical": true,
+      "severity": "CRITICAL",
+      "verificationMethod": "Download results.json, count the records, and assert every record has all six fields present and non-null.",
+      "expectedEvidence": [
+        "results.json",
+        "row-count-check"
+      ]
+    },
+    {
+      "id": "C2",
+      "requirement": "Every event_id in results.json has an entry in sources.json whose URL is an HTTPS URL on the earthquake.usgs.gov domain and resolves to that event.",
+      "weightBps": 3000,
+      "mandatory": true,
+      "critical": false,
+      "severity": "HIGH",
+      "verificationMethod": "Download sources.json, confirm one entry per event_id, and check each URL is HTTPS on earthquake.usgs.gov.",
+      "expectedEvidence": [
+        "sources.json"
+      ]
+    },
+    {
+      "id": "C3",
+      "requirement": "README.md documents the collection date, the exact USGS catalog query used, and the unit of every numeric field in results.json.",
+      "weightBps": 2000,
+      "mandatory": true,
+      "critical": false,
+      "severity": "MEDIUM",
+      "verificationMethod": "Read README.md and confirm all three items are present and specific.",
+      "expectedEvidence": [
+        "README.md"
+      ]
+    }
+  ],
+  "evidenceRequirements": [
+    "Every artifact URL is public HTTPS pinned to an immutable revision, specifically a full 40-character commit SHA.",
+    "Every declared sha256 matches the bytes actually served at its URL.",
+    "Source URLs resolve on the authoritative USGS domain, not a mirror or cache."
+  ],
+  "acceptanceDeadline": "2026-10-03T04:05:38.346Z",
+  "deliveryDeadline": "2026-10-08T04:05:38.346Z",
+  "payment": {
+    "chainId": 84532,
+    "token": "USDC",
+    "tokenAddress": "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+    "amountAtomic": "2000000"
+  },
+  "policy": "RESEARCH_DATA_V2",
+  "allowPartialSettlement": true,
+  "appealPolicy": {
+    "principalAppeals": 1,
+    "providerAppeals": 1,
+    "lockedRecordOnly": true
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "admissibility": [
+    {
+      "id": "results",
+      "reason": "Artifact retrieved, SHA-256 matches submitted hash, content matches expected JSON structure.",
+      "status": "ADMISSIBLE"
+    },
+    {
+      "id": "readme",
+      "reason": "Artifact retrieved, SHA-256 matches submitted hash, content is a valid Markdown document with required fields.",
+      "status": "ADMISSIBLE"
+    },
+    {
+      "id": "source-registry",
+      "reason": "Evidence file retrieved, SHA-256 matches submitted hash, JSON lists one source URL per event_id on the correct domain.",
+      "status": "ADMISSIBLE"
+    }
+  ],
+  "appealGrounds": [],
+  "caseId": "MC_d493146cd18d49c1b8881975829e1d6e",
+  "confidenceBps": 10000,
+  "contradictions": [],
+  "criteria": [
+    {
+      "evidenceRefs": [
+        "results"
+      ],
+      "id": "C1",
+      "reason": "results.json contains 50 records (≥40) and each record includes non‑null event_id, place, magnitude, occurred_at, depth_km and coordinates.",
+      "reasonCode": "0xC1PASS",
+      "result": "PASS",
+      "severity": "CRITICAL",
+      "weightBps": 5000
+    },
+    {
+      "evidenceRefs": [
+        "source-registry",
+        "results"
+      ],
+      "id": "C2",
+      "reason": "Every event_id from results.json appears exactly once in sources.json and each source_url is an HTTPS URL on earthquake.usgs.gov that resolves to the corresponding event page.",
+      "reasonCode": "0xC2PASS",
+      "result": "PASS",
+      "severity": "HIGH",
+      "weightBps": 3000
+    },
+    {
+      "evidenceRefs": [
+        "readme"
+      ],
+      "id": "C3",
+      "reason": "README.md records the collection date, the exact USGS query URL, and provides a table specifying units for each numeric field.",
+      "reasonCode": "0xC3PASS",
+      "result": "PASS",
+      "severity": "MEDIUM",
+      "weightBps": 2000
+    }
+  ],
+  "evidenceCommitment": "0xa61f8fdc6effd880ac46db29abeb3a3b7d4928a8f46db6ce2ba65214f3d3d356",
+  "materialBreaches": [],
+  "missingEvidence": [],
+  "schemaVersion": "1.0",
+  "settlementBps": 10000,
+  "summary": "All mandatory acceptance criteria are satisfied: the dataset contains ≥40 complete records, each record is linked to a verifiable USGS URL, and documentation meets the required specifications.",
+  "verdict": "FULFILLED"
+}

@@ -1,0 +1,60 @@
+{
+  "chain": "Base Sepolia",
+  "chainId": 84532,
+  "usdc": "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+  "escrowContract": "0xbb884f9f1AD5DF295Df56908905DE3822583C867",
+  "mandateRegistry": "0x2Ac5F5B9D8c9bd05FCB8de0b49A3e42Bfb6FB086",
+  "disputeRegistry": "0x3b673AC88d24EBECb7Ed39b776b62996AA6a8A11",
+  "settlementAdapter": "0x38247b766826F720251a4e9Af79E47B5e3ef137E",
+  "genlayerContract": "0xa2535D7076b80707852705a93D137e0578D9f154",
+  "genlayerTransactionId": "0xc467562b067a1ced2badc886adf231809bd43b2a889d7e0f1e21da000e925fc6",
+  "onchainMandateId": "0xfd035d15afab892f6564955e09ea84c97067681f3cf2883c48267d59071327ba",
+  "principalWallet": "0x42b4baa67bb278bc933115e79a471a015c4a1a7b",
+  "providerWallet": "0x881e422cb848814e9cce35e38364d00fa8d84fae",
+  "escrowedAtomic": "2000000",
+  "awardedAtomic": "2000000",
+  "transactions": [
+    {
+      "stage": "Mandate created and escrow funded",
+      "note": "EIP-3009 transferWithAuthorization locked escrow",
+      "hash": "0x2b34496d09dcec6a5fdac7f46f25f468e6195dd42fc874f60977fc2eef970bc6",
+      "explorer": "https://sepolia.basescan.org/tx/0x2b34496d09dcec6a5fdac7f46f25f468e6195dd42fc874f60977fc2eef970bc6"
+    },
+    {
+      "stage": "Provider accepted",
+      "note": "Wallet-bound acceptance recorded on Base",
+      "hash": "0x41929541f4433b946ebd67220ec5816e90904aabf27ba0e31da75286edf3650c",
+      "explorer": "https://sepolia.basescan.org/tx/0x41929541f4433b946ebd67220ec5816e90904aabf27ba0e31da75286edf3650c"
+    },
+    {
+      "stage": "Delivery submitted",
+      "note": "Delivery hash committed on Base",
+      "hash": "0xafa7009d7bebc856c2ee5cce7f133afea804b84ab82cdf7cb94c65b7809082d3",
+      "explorer": "https://sepolia.basescan.org/tx/0xafa7009d7bebc856c2ee5cce7f133afea804b84ab82cdf7cb94c65b7809082d3"
+    },
+    {
+      "stage": "Case linked to adjudicator",
+      "note": "Dispute registry linked to the GenLayer case",
+      "hash": "0x78afdfd2e262e8d5cf9b76d425228914c0051fff22a012e53946aff7856d77fd",
+      "explorer": "https://sepolia.basescan.org/tx/0x78afdfd2e262e8d5cf9b76d425228914c0051fff22a012e53946aff7856d77fd"
+    },
+    {
+      "stage": "Judgment accepted",
+      "note": "Judgment recorded, appeal window opened",
+      "hash": "0xe2a7531288356a01e97939f741ef1a12b2a1f6b536285a031ad156c7c9ef5786",
+      "explorer": "https://sepolia.basescan.org/tx/0xe2a7531288356a01e97939f741ef1a12b2a1f6b536285a031ad156c7c9ef5786"
+    },
+    {
+      "stage": "Judgment finalized",
+      "note": "Finality reached, settlement authorized",
+      "hash": "0xa33b78af7b25570754e05a4a37bc894cef9adf3ab1307e947d930e95a3f9990d",
+      "explorer": "https://sepolia.basescan.org/tx/0xa33b78af7b25570754e05a4a37bc894cef9adf3ab1307e947d930e95a3f9990d"
+    },
+    {
+      "stage": "Settlement executed",
+      "note": "2 USDC released from escrow to the provider",
+      "hash": "0x27270a1264fe2164a0c9bcc15b781641e8e5cf7707b3f464706e91e4fb11af81",
+      "explorer": "https://sepolia.basescan.org/tx/0x27270a1264fe2164a0c9bcc15b781641e8e5cf7707b3f464706e91e4fb11af81"
+    }
+  ]
+}
