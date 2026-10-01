@@ -1,0 +1,658 @@
+{
+  "generated_at": "2026-10-01T11:09:22.717Z",
+  "source": "USGS Earthquake Hazards Program",
+  "query": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-09-01&endtime=2026-09-30&minmagnitude=5.0&orderby=magnitude&limit=50",
+  "record_count": 50,
+  "records": [
+    {
+      "event_id": "us6000txpi",
+      "place": "80 km ENE of Tadine, New Caledonia",
+      "magnitude": 6.6,
+      "occurred_at": "2026-09-25T21:23:03.309Z",
+      "depth_km": 10,
+      "coordinates": {
+        "longitude": 168.61,
+        "latitude": -21.2982
+      },
+      "magnitude_type": "mww",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us7000ti1p",
+      "place": "177 km W of Nikolski, Alaska",
+      "magnitude": 6.5,
+      "occurred_at": "2026-09-17T14:19:52.472Z",
+      "depth_km": 98,
+      "coordinates": {
+        "longitude": -171.5033,
+        "latitude": 52.9564
+      },
+      "magnitude_type": "mww",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us7000tgrk",
+      "place": "126 km NNE of Teluknaga, Indonesia",
+      "magnitude": 6.5,
+      "occurred_at": "2026-09-11T21:23:55.907Z",
+      "depth_km": 372,
+      "coordinates": {
+        "longitude": 106.8742,
+        "latitude": -4.9832
+      },
+      "magnitude_type": "mww",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us7000tiqc",
+      "place": "49 km NNE of Kainantu, Papua New Guinea",
+      "magnitude": 6.4,
+      "occurred_at": "2026-09-20T09:17:35.624Z",
+      "depth_km": 104.329,
+      "coordinates": {
+        "longitude": 146.0922,
+        "latitude": -5.9021
+      },
+      "magnitude_type": "mww",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us7000tdvt",
+      "place": "89 km SSW of Nikolski, Alaska",
+      "magnitude": 6.3,
+      "occurred_at": "2026-09-03T11:17:21.717Z",
+      "depth_km": 21,
+      "coordinates": {
+        "longitude": -169.3496,
+        "latitude": 52.1883
+      },
+      "magnitude_type": "mww",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us7000tdrv",
+      "place": "South Sandwich Islands region",
+      "magnitude": 6.2,
+      "occurred_at": "2026-09-02T23:46:56.213Z",
+      "depth_km": 111,
+      "coordinates": {
+        "longitude": -27.8507,
+        "latitude": -56.0727
+      },
+      "magnitude_type": "mww",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us7000tgl2",
+      "place": "253 km ENE of Lospalos, Timor Leste",
+      "magnitude": 5.9,
+      "occurred_at": "2026-09-11T11:56:23.115Z",
+      "depth_km": 111.763,
+      "coordinates": {
+        "longitude": 128.9383,
+        "latitude": -7.2863
+      },
+      "magnitude_type": "mww",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us7000tdms",
+      "place": "southern East Pacific Rise",
+      "magnitude": 5.9,
+      "occurred_at": "2026-09-02T12:35:56.633Z",
+      "depth_km": 10,
+      "coordinates": {
+        "longitude": -109.0117,
+        "latitude": -34.8796
+      },
+      "magnitude_type": "mww",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us6000tx3m",
+      "place": "180 km NW of Hihifo, Tonga",
+      "magnitude": 5.7,
+      "occurred_at": "2026-09-23T14:41:02.650Z",
+      "depth_km": 10,
+      "coordinates": {
+        "longitude": -175.1114,
+        "latitude": -14.9369
+      },
+      "magnitude_type": "mww",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us7000tdhl",
+      "place": "163 km WSW of Abepura, Indonesia",
+      "magnitude": 5.7,
+      "occurred_at": "2026-09-02T00:04:54.803Z",
+      "depth_km": 66.016,
+      "coordinates": {
+        "longitude": 139.321,
+        "latitude": -3.2669
+      },
+      "magnitude_type": "mb",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us6000txtc",
+      "place": "72 km ESE of Kokopo, Papua New Guinea",
+      "magnitude": 5.6,
+      "occurred_at": "2026-09-26T14:08:18.875Z",
+      "depth_km": 69.51,
+      "coordinates": {
+        "longitude": 152.8611,
+        "latitude": -4.6288
+      },
+      "magnitude_type": "mww",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us7000thcs",
+      "place": "78 km NNE of Tobelo, Indonesia",
+      "magnitude": 5.6,
+      "occurred_at": "2026-09-14T10:58:03.047Z",
+      "depth_km": 162.179,
+      "coordinates": {
+        "longitude": 128.1704,
+        "latitude": 2.4223
+      },
+      "magnitude_type": "mww",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us7000temi",
+      "place": "98 km SE of Kirakira, Solomon Islands",
+      "magnitude": 5.6,
+      "occurred_at": "2026-09-06T04:05:30.388Z",
+      "depth_km": 40.267,
+      "coordinates": {
+        "longitude": 162.5482,
+        "latitude": -11.0903
+      },
+      "magnitude_type": "mww",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us7000tek0",
+      "place": "89 km ESE of Isangel, Vanuatu",
+      "magnitude": 5.6,
+      "occurred_at": "2026-09-05T17:02:11.369Z",
+      "depth_km": 9,
+      "coordinates": {
+        "longitude": 170.1102,
+        "latitude": -19.7418
+      },
+      "magnitude_type": "mww",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us7000tdmp",
+      "place": "77 km SW of Puerto Madero, Mexico",
+      "magnitude": 5.6,
+      "occurred_at": "2026-09-02T12:28:30.827Z",
+      "depth_km": 11,
+      "coordinates": {
+        "longitude": -93.0157,
+        "latitude": 14.3228
+      },
+      "magnitude_type": "mww",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us6000tyc3",
+      "place": "southern Mid-Atlantic Ridge",
+      "magnitude": 5.5,
+      "occurred_at": "2026-09-29T13:06:09.941Z",
+      "depth_km": 10,
+      "coordinates": {
+        "longitude": -16.0771,
+        "latitude": -35.2758
+      },
+      "magnitude_type": "mww",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us6000txqi",
+      "place": "61 km ENE of Tadine, New Caledonia",
+      "magnitude": 5.5,
+      "occurred_at": "2026-09-25T23:39:41.392Z",
+      "depth_km": 10,
+      "coordinates": {
+        "longitude": 168.4446,
+        "latitude": -21.3748
+      },
+      "magnitude_type": "mww",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us7000tiur",
+      "place": "35 km NNE of Ruteng, Indonesia",
+      "magnitude": 5.5,
+      "occurred_at": "2026-09-21T01:41:36.315Z",
+      "depth_km": 10,
+      "coordinates": {
+        "longitude": 120.5793,
+        "latitude": -8.307
+      },
+      "magnitude_type": "mb",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us7000tit5",
+      "place": "south of Africa",
+      "magnitude": 5.5,
+      "occurred_at": "2026-09-20T20:54:37.205Z",
+      "depth_km": 10,
+      "coordinates": {
+        "longitude": 31.2519,
+        "latitude": -48.4518
+      },
+      "magnitude_type": "mww",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us7000tigd",
+      "place": "Kermadec Islands region",
+      "magnitude": 5.5,
+      "occurred_at": "2026-09-18T23:18:28.306Z",
+      "depth_km": 94.054,
+      "coordinates": {
+        "longitude": -177.2286,
+        "latitude": -27.8581
+      },
+      "magnitude_type": "mww",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us7000thc6",
+      "place": "187 km SSW of Pelabuhanratu, Indonesia",
+      "magnitude": 5.5,
+      "occurred_at": "2026-09-14T09:27:38.536Z",
+      "depth_km": 10,
+      "coordinates": {
+        "longitude": 105.8726,
+        "latitude": -8.5419
+      },
+      "magnitude_type": "mb",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us7000teu1",
+      "place": "southeast of the Loyalty Islands",
+      "magnitude": 5.5,
+      "occurred_at": "2026-09-07T05:50:44.529Z",
+      "depth_km": 10,
+      "coordinates": {
+        "longitude": 171.6769,
+        "latitude": -23.4192
+      },
+      "magnitude_type": "mww",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us7000teji",
+      "place": "163 km E of Kokopo, Papua New Guinea",
+      "magnitude": 5.5,
+      "occurred_at": "2026-09-05T14:12:07.079Z",
+      "depth_km": 109,
+      "coordinates": {
+        "longitude": 153.7224,
+        "latitude": -4.5724
+      },
+      "magnitude_type": "mww",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us7000tefx",
+      "place": "152 km E of Kuril’sk, Russia",
+      "magnitude": 5.5,
+      "occurred_at": "2026-09-04T23:52:30.709Z",
+      "depth_km": 32,
+      "coordinates": {
+        "longitude": 149.8017,
+        "latitude": 45.0284
+      },
+      "magnitude_type": "mww",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us7000tdw6",
+      "place": "17 km WNW of Jiangyou, China",
+      "magnitude": 5.5,
+      "occurred_at": "2026-09-03T11:39:42.108Z",
+      "depth_km": 10,
+      "coordinates": {
+        "longitude": 104.5554,
+        "latitude": 31.8509
+      },
+      "magnitude_type": "mb",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us6000tyc1",
+      "place": "99 km SSE of Pangai, Tonga",
+      "magnitude": 5.4,
+      "occurred_at": "2026-09-29T12:40:35.064Z",
+      "depth_km": 10,
+      "coordinates": {
+        "longitude": -174.0813,
+        "latitude": -20.6773
+      },
+      "magnitude_type": "mb",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us6000ty57",
+      "place": "north of Svalbard",
+      "magnitude": 5.4,
+      "occurred_at": "2026-09-28T13:22:39.769Z",
+      "depth_km": 10,
+      "coordinates": {
+        "longitude": -7.1923,
+        "latitude": 82.6385
+      },
+      "magnitude_type": "mww",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us6000ty2u",
+      "place": "231 km WSW of Port McNeill, Canada",
+      "magnitude": 5.4,
+      "occurred_at": "2026-09-28T04:41:21.639Z",
+      "depth_km": 10,
+      "coordinates": {
+        "longitude": -130.2208,
+        "latitude": 50.0527
+      },
+      "magnitude_type": "mww",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us6000txqk",
+      "place": "69 km ENE of Tadine, New Caledonia",
+      "magnitude": 5.4,
+      "occurred_at": "2026-09-25T23:52:35.158Z",
+      "depth_km": 10,
+      "coordinates": {
+        "longitude": 168.4346,
+        "latitude": -21.2023
+      },
+      "magnitude_type": "mb",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us7000tirh",
+      "place": "68 km NNE of Kainantu, Papua New Guinea",
+      "magnitude": 5.4,
+      "occurred_at": "2026-09-20T12:45:53.415Z",
+      "depth_km": 116.019,
+      "coordinates": {
+        "longitude": 146.2041,
+        "latitude": -5.7711
+      },
+      "magnitude_type": "mww",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us7000tha3",
+      "place": "northern Mid-Atlantic Ridge",
+      "magnitude": 5.4,
+      "occurred_at": "2026-09-14T02:56:17.419Z",
+      "depth_km": 10,
+      "coordinates": {
+        "longitude": -45.3828,
+        "latitude": 25.5449
+      },
+      "magnitude_type": "mww",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us7000tgey",
+      "place": "southern East Pacific Rise",
+      "magnitude": 5.4,
+      "occurred_at": "2026-09-10T18:21:19.077Z",
+      "depth_km": 10,
+      "coordinates": {
+        "longitude": -109.1447,
+        "latitude": -34.7752
+      },
+      "magnitude_type": "mww",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us7000tevq",
+      "place": "Carlsberg Ridge",
+      "magnitude": 5.4,
+      "occurred_at": "2026-09-05T17:25:52.639Z",
+      "depth_km": 10,
+      "coordinates": {
+        "longitude": 67.803,
+        "latitude": -0.503
+      },
+      "magnitude_type": "mww",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us7000te9t",
+      "place": "Kermadec Islands region",
+      "magnitude": 5.4,
+      "occurred_at": "2026-09-04T11:59:58.500Z",
+      "depth_km": 10,
+      "coordinates": {
+        "longitude": -176.6908,
+        "latitude": -28.4108
+      },
+      "magnitude_type": "mww",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us7000te4b",
+      "place": "105 km SSW of Nikolski, Alaska",
+      "magnitude": 5.4,
+      "occurred_at": "2026-09-03T20:21:14.883Z",
+      "depth_km": 10,
+      "coordinates": {
+        "longitude": -169.1941,
+        "latitude": 52.015
+      },
+      "magnitude_type": "mww",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us7000tdr1",
+      "place": "78 km S of Isangel, Vanuatu",
+      "magnitude": 5.4,
+      "occurred_at": "2026-09-02T21:22:07.155Z",
+      "depth_km": 79.021,
+      "coordinates": {
+        "longitude": 169.4185,
+        "latitude": -20.2349
+      },
+      "magnitude_type": "mww",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us7000tdqc",
+      "place": "52 km W of Bulolo, Papua New Guinea",
+      "magnitude": 5.4,
+      "occurred_at": "2026-09-02T20:04:32.839Z",
+      "depth_km": 60.563,
+      "coordinates": {
+        "longitude": 146.1703,
+        "latitude": -7.1447
+      },
+      "magnitude_type": "mww",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us7000tdav",
+      "place": "96 km SE of Maba, Indonesia",
+      "magnitude": 5.4,
+      "occurred_at": "2026-09-01T08:22:20.365Z",
+      "depth_km": 10,
+      "coordinates": {
+        "longitude": 128.9395,
+        "latitude": 0.1192
+      },
+      "magnitude_type": "mww",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us6000tya5",
+      "place": "76 km NE of Tadine, New Caledonia",
+      "magnitude": 5.3,
+      "occurred_at": "2026-09-29T03:23:54.418Z",
+      "depth_km": 10,
+      "coordinates": {
+        "longitude": 168.4092,
+        "latitude": -21.0716
+      },
+      "magnitude_type": "mww",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us6000ty2b",
+      "place": "60 km NE of Tadine, New Caledonia",
+      "magnitude": 5.3,
+      "occurred_at": "2026-09-28T03:25:06.893Z",
+      "depth_km": 10,
+      "coordinates": {
+        "longitude": 168.3545,
+        "latitude": -21.2245
+      },
+      "magnitude_type": "mww",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us6000txqu",
+      "place": "58 km ENE of Tadine, New Caledonia",
+      "magnitude": 5.3,
+      "occurred_at": "2026-09-26T01:10:19.430Z",
+      "depth_km": 10,
+      "coordinates": {
+        "longitude": 168.3721,
+        "latitude": -21.2883
+      },
+      "magnitude_type": "mb",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us6000txjy",
+      "place": "Vanuatu region",
+      "magnitude": 5.3,
+      "occurred_at": "2026-09-25T11:12:15.838Z",
+      "depth_km": 23.966,
+      "coordinates": {
+        "longitude": 174.0792,
+        "latitude": -21.8904
+      },
+      "magnitude_type": "mww",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us6000txhp",
+      "place": "72 km NW of Finschhafen, Papua New Guinea",
+      "magnitude": 5.3,
+      "occurred_at": "2026-09-24T23:30:28.053Z",
+      "depth_km": 53.586,
+      "coordinates": {
+        "longitude": 147.3935,
+        "latitude": -6.0863
+      },
+      "magnitude_type": "mww",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us6000tx9u",
+      "place": "15 km SSW of Hilvan, Turkey",
+      "magnitude": 5.3,
+      "occurred_at": "2026-09-24T07:40:58.138Z",
+      "depth_km": 10,
+      "coordinates": {
+        "longitude": 38.8612,
+        "latitude": 37.4736
+      },
+      "magnitude_type": "mww",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us6000tx29",
+      "place": "51 km WSW of Arauco, Argentina",
+      "magnitude": 5.3,
+      "occurred_at": "2026-09-23T09:21:14.600Z",
+      "depth_km": 121.534,
+      "coordinates": {
+        "longitude": -67.2912,
+        "latitude": -28.7298
+      },
+      "magnitude_type": "mww",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us7000tj1s",
+      "place": "96 km S of Sarangani, Philippines",
+      "magnitude": 5.3,
+      "occurred_at": "2026-09-21T23:48:13.188Z",
+      "depth_km": 10,
+      "coordinates": {
+        "longitude": 125.3444,
+        "latitude": 4.5364
+      },
+      "magnitude_type": "mb",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us7000tiq2",
+      "place": "64 km W of Cafayate, Argentina",
+      "magnitude": 5.3,
+      "occurred_at": "2026-09-20T08:47:54.457Z",
+      "depth_km": 10,
+      "coordinates": {
+        "longitude": -66.6117,
+        "latitude": -25.9869
+      },
+      "magnitude_type": "mww",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us7000tinl",
+      "place": "108 km ESE of Yigo Village, Guam",
+      "magnitude": 5.3,
+      "occurred_at": "2026-09-20T03:43:24.649Z",
+      "depth_km": 10,
+      "coordinates": {
+        "longitude": 145.7591,
+        "latitude": 13.0568
+      },
+      "magnitude_type": "mb",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us7000timy",
+      "place": "Reykjanes Ridge",
+      "magnitude": 5.3,
+      "occurred_at": "2026-09-20T00:58:14.425Z",
+      "depth_km": 10,
+      "coordinates": {
+        "longitude": -33.5459,
+        "latitude": 57.1211
+      },
+      "magnitude_type": "mww",
+      "review_status": "reviewed"
+    },
+    {
+      "event_id": "us7000tild",
+      "place": "Reykjanes Ridge",
+      "magnitude": 5.3,
+      "occurred_at": "2026-09-19T20:24:42.324Z",
+      "depth_km": 10,
+      "coordinates": {
+        "longitude": -33.4238,
+        "latitude": 57.1264
+      },
+      "magnitude_type": "mww",
+      "review_status": "reviewed"
+    }
+  ]
+}
